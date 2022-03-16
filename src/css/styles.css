@@ -13,17 +13,30 @@ img {
 
 a {
   text-decoration: none;
-  color: #007eb6;
+  color: blue;
 }
 
 nav ul {
-  padding: 0;
+ 
+  border: none;
+  padding: 0.5rem 1rem;
   list-style: none;
+  background: gray;
   display: flex;
+  color: white;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+ 
+ 
+
 }
 
 nav ul a {
   padding: 0.5rem 1rem;
+  color: white;
 }
 
 .content {
@@ -52,16 +65,16 @@ button {
   color: #fff;
   border-radius: 4px;
   font-size: 1rem;
-  width: 4rem;
+  /*width: 4rem;*/
 }
 
 .pics .content img {
-  width: 60%;
+  
   padding: 1rem;
 }
 
 .pictures img {
-  max-width: 50%;
+ 
 }
 .pictures h1 {
   color: rgb(123, 11, 104);

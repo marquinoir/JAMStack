@@ -5,9 +5,10 @@ tags: page
 navTitle: Home
 ---
 
-## A list of current Movies Now Playing
+## A list of Movies Now Playing from the TMDB API
 
->Now Playing in a Theater Near You
+<div class="stories"></div>
+
 
 {% for page in collections.page %}
 
