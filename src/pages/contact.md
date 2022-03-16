@@ -1,6 +1,5 @@
 ---
 pageTitle: Contact Us
-layout: layouts/contact.html
 navTitle: Contact
 ---
 
